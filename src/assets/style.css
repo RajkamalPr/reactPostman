@@ -1,0 +1,291 @@
+*{
+    height:0;
+    padding: 0;
+}
+.row{
+    height: auto;
+}
+.container-fluid{
+    height: auto;
+    border-bottom: 1px solid #dacccc;
+}
+.title-pd{
+    padding: 10px;
+    font-size: 16px;
+}
+.bg-red{
+    color: red;
+    padding: 4px 4px;
+}
+.bg-green{
+    color:#a6e22e;
+    font-style: normal;
+}
+.pd{
+    height: 750px;
+    padding: 0px 25px;
+}
+.bg-col{
+    height: 750px;
+    background: #272626;
+}
+.col-h{
+    height: 250px;
+}
+.highlighter{
+    height: auto;
+    background: #272626;
+    color: #808080;
+    box-shadow: 0px -1px #272626;
+    padding: 0px;
+}
+.highlighter span{
+    height: auto;
+    padding: 16px;
+    font-size: 12px;
+    flex-grow: 1;
+}
+.fl-end{
+    text-align: end;
+    margin-right: 20px;
+    color: white;
+}
+.txt-container{
+    height: auto;
+    display: flex;
+}
+.title-code{
+    height: auto;
+    color: #f8f8f8;
+    background: black;
+    display: flex;
+    margin-top: 10px;
+}
+.title-code span{
+    font-size: 12px;
+    padding: 16px;
+}
+.dummy-height{
+    height: 200px;
+    background: black;
+}
+.txt-container p{
+    font-size: 12px;
+    margin: 20px;
+    height: auto;
+}
+code{
+    color: #a6e22e;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background: white;
+    z-index: 2;
+    box-shadow: 0px 0px 7px #c3bcbc;
+}
+.postman{
+    height: 70px;
+    display: flex;
+    justify-items: center;
+}
+
+/*Sidebar navigation*/
+.sidebar{
+    background: whitesmoke;
+    width: 16.5rem;
+    height: 100%;
+    position: fixed;
+    padding: 20px 0px;
+}
+.sidebar h3{
+    height: auto;
+    color: rgb(33, 33, 33);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 6px 0px 6px 6px;
+    margin: 21px 10px 1px 11px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgb(237, 237, 237);
+}
+ul{
+    height: auto;
+    margin: 12px 0;
+}
+li{
+    display: table;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.role-dir{
+    height: auto;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.play-icon{
+    height: auto;
+    margin-left: 10px;
+    flex-basis: 14px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+}
+.icon-btn{
+    height: auto;
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+.icon-color{
+    color: silver;
+}
+.txt{
+    font-size: 12px;
+    font-weight: 600;
+}
+.fa-folder{
+    font-size: 20px;
+}
+.main{
+    margin-top: 5rem;
+    height: auto;
+    margin-left: 16.5rem;
+    overflow:hidden;
+}
+h2, .headerTxt{
+    padding: 3.6rem 1rem;
+    font-weight: 600;
+}
+.headerTxt{
+    font-size: 20px;
+}
+.container{
+    line-height: 2rem;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.rol-container{
+    height: 50px;
+    padding: 10px;
+}
+.container .txt{
+    font-weight: normal;
+    font-size: 14px;
+}
+.fl{
+    align-items: center;
+    display: flex;
+    height: 65px;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.txt-pd{
+    height: auto;
+    margin: 40px 0px;
+    flex-basis: 120px;
+    font-size: 12px;
+}
+hr{
+    background: #e2eae2;
+    width: 96%;
+    margin: auto;
+}
+.txt-para{
+    color: #808080;
+    padding: 0px 10px;
+    font-size: 12px;
+    height: auto;
+    margin: 12px 0px;
+}
+.pd-4{
+    height: auto;
+    margin: 16px 0;
+}
+.pd-4 b{
+    font-size: 16px;
+    font-weight: 600;
+}
+.codeBlock{
+    margin: 20px 0px;
+    border: .1px solid #ffe2e2;
+    color: green;
+    font-size: 12px;
+    height: auto;
+    padding: 20px;
+}
+.bg-blue{
+    color: rgb(77, 77, 235);
+}
+.contain{
+    height: auto;
+    padding: 20px 0;
+}
+/*Get all Roll Section */
+.container-fld{
+    padding: 0px 34px;
+}
+.container-fld h4{
+    padding: 40px 0px;
+    font-size: 18px;
+}
+.bg-green2{
+    color: rgb(15, 180, 64);
+}
+.bg-orange{
+    color: orange;
+}
+.editbox{
+    word-break: break-all;
+    border: 1px solid #e6e6e6;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #282828;
+    background-color: #f8f8f8;
+    height: auto;
+}
+
+@media screen and (max-width:990px) {
+    .sidebar{
+        transform: translateX(-100%);
+    }
+    .rol-container{
+        height: 80px;
+        padding: 0px 14px;
+    }
+    .main{
+        margin-left: 0px;
+        height: auto;
+    }
+    .fl{
+        height: 50px;
+        flex-direction: column;
+        line-height: 24px;
+        align-items: baseline;
+    }
+    .txt-pd{
+        margin:0px 8px;
+        flex-basis: 0mm;
+    }
+    .txt-para{
+        margin: 0;
+        padding: 0px 18px;
+    }
+    .bg-col, .hidden{
+        display: none;
+    }
+}
